@@ -1,0 +1,19 @@
+[theme]
+primaryColor = "#0d6efd"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f8f9fa"
+textColor = "#212529"
+font = "sans serif"
+
+[server]
+port = 8501
+address = "0.0.0.0"
+headless = true
+enableCORS = true
+enableXsrfProtection = true
+maxUploadSize = 15
+sslCertFile = "certs/cert.pem"
+sslKeyFile = "certs/key.pem"
+
+[browser]
+gatherUsageStats = false

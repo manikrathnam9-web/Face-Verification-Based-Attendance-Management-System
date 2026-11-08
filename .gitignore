@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Biometric data and private student records
+data/embeddings/
+data/embeddings/*.npy
+data/enrollment/
+data/enrollment/*.json
+database/attendance.db
+database/*.db
+*.npy
+*.db
+*.sqlite
+*.sqlite3
+data/exports/*.csv
+
+# HTTPS private certificates and keys
+certs/*.pem
+certs/*.key
+certs/*-key.pem
+certs/private/
+*.p12
+*.pfx
+certs/*.crt
+certs/*.csr
+!certs/.gitkeep
+
+# IDE and system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+streamlit.stdout.log
+streamlit.stderr.log
+.system_generated/
+data/test_images/
